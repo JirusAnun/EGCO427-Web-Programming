@@ -53,12 +53,11 @@ document.write(
     today.getDate() +
     " " +
     months[today.getMonth()] +
-    " " +
+    ", " +
     today.getFullYear() +
-    "<br />"
+    " "
 );
 document.write(
-  "Time: " +
     hours +
     ":" +
     today.getMinutes().toString().padStart(2, "0") +
